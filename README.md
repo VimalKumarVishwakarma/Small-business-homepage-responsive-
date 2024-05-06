@@ -1,6 +1,6 @@
 Project - Small Business Homepage (Fully responsive) Using HTML and CSS.
 
-See video of this project on my Linkdin -
+✨See Direct Video Of This Project On My Linkdin Profile-
 https://www.linkedin.com/posts/vimal-kumar-vishwakarma-87532a306_seeditsolution-tosscall-webdevelopment-activity-7193233398964928514-auQA?utm_source=share&utm_medium=member_desktop
 
 Welcome to the Small Business Homepage project! This responsive webpage, created solely with HTML and CSS, 
