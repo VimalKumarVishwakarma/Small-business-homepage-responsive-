@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-color:#f4f4f4;
+                margin:0px;
+                padding:0px;
+                font-family:'Arial', sans-serif;
+            }
+            header
+            {
+                background-color:#005f73;
+                color: white;
+                padding: 5px 15px;
+            }
+            .header-div
+            {
+             max-width:1620px;
+             margin:0 auto;
+             display:flex;
+             /* background-color: red; */
+             justify-content:space-between;
+             align-items:center;
+            }
+            nav ul
+            {
+                display:flex;
+                list-style:none;
+            }
+            nav ul li
+            {
+                /* display:inline-block; */
+                margin-right:25px;
+                font-size:20px;   
+            }
+            a
+            {
+                text-decoration:none;
+                /* color:white; */
+                /* font-weight:bold; */
+                color:#ffffff;
+            }
+            nav ul li:hover
+            {
+                text-decoration: underline #ffffff;
+            }
+           #bg
+           {
+            background-image:url(small\ business\ homepage\ image.jpg);  /* Add your image path */
+            background-size: cover;
+            background-position:0px 76%;
+            height:600px;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            color:white;
+           }
+          .wellcome-area
+           {
+            background-color:rgba(0, 0, 0, 0.495);
+            min-width:23%;
+            height:22vh;
+            padding:20px;
+            font-size:17.5px;
+            border-radius:2px;
+           } 
+           .wellcome-area h2
+           {
+              margin-top:35px;
+           }
+           .button
+           {
+            display:inline-block;
+            background-color:rgb(214, 139, 0);
+            padding:10px 20px;
+            border-radius:5px;
+           }
+           .button:hover
+           {
+            background-color:#005f73;
+           }
+           .button:active
+           {
+              color:gold;
+           }
+           #services
+           {
+            background-color: white;
+            padding:20px;
+            text-align: left;
+           }
+           #services h2
+           {
+             color:#007bff;
+             margin-bottom:15px;
+             font-size:25px;
+           }
+           #services ul
+           {
+            list-style-type: circle;
+            margin-top:20px;
+           }
+           #services li
+           {
+            margin-bottom:10px;
+           }
+           #about
+           {
+            background-color:#eeeeee;
+            padding:20px;
+           }
+           #about h2
+           {
+            color:green;
+            margin-bottom:15px;
+           }
+           #contact
+           {
+            background-color:white;
+            padding:20px;
+           }
+           #contact h2
+           {
+            color:red;
+           }
+           footer 
+           {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+           }
+           #services li:hover,#contact p:hover 
+           {
+            color: #0056b3;
+            cursor: pointer;
+           }
+
+           @media screen and (max-width: 768px)
+           {
+               
+             #service,#about,#contact
+             {
+                text-align:center;
+             }
+             #services ul
+             {
+                list-style-type:none;
+                padding:0px;
+             }
+           }
+        </style>
+    </head>
+    <body>
+            <header>
+                  <div class="header-div">
+                      <h1>Your Business Name</h1>
+                      <nav>
+                          <ul>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+            </header>
+
+            <section id="bg">
+                <div class="wellcome-area">
+                <h2>Welcome to Our Business</h2>
+                <p>Your one-stop solution for all your needs.</p>
+                <a href="#contact" class="button">Get in Touch</a>
+                </div>
+            </section> 
+            
+            <section id="services">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of services to help your business grow:</p>
+                <ul>
+                    <li>Consulting Services</li>
+                    <li>Professional Training</li>
+                    <li>Marketing and Advertising Solutions</li>
+                    <!-- More services can be listed here -->
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are a dedicated team with over 10 years of experience in business development and management. Our mission is to provide high-quality services tailored to each client's unique needs.</p>
+                <!-- More about the business -->
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Phone:+91 1122334455</p>
+                <p>Email: smallbusiness@gmail.com</p>
+                <!-- Additional contact details or a contact form -->
+            </section>
+
+            <footer>
+                <p>© 2024 Small Business. All rights reserved.</p>
+            </footer>  
+
+    </body>
+</html>
